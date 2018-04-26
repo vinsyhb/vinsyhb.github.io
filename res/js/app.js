@@ -1,4 +1,3 @@
-debugger;
 function Game(elephants){
 	this.isMobile = true;
 	this.elephants= elephants;
@@ -19,7 +18,7 @@ function Game(elephants){
 	this.selectedObject = null;
 	this.movableObject = {};
 	this.interval1 = null;
-	this.sheepsLeft = 2;
+	this.sheepsLeft = 16;
 	this.whoseMove = 'elephant';
 	this.killedSheeps = 0;
 	this.canvasWidth = this.canvas.width;
