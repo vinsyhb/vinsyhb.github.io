@@ -428,7 +428,7 @@ Game.prototype.drawGame = function(redraw){
 						depends.push({
 							16:filterItems(that.movablePoints,'position',15)
 						});
-						depends = depends.concat(filterItems(that.movablePoints,'position',15));
+						//depends = depends.concat(filterItems(that.movablePoints,'position',15));
 					}
 					validPointsMap[17] = depends;
 			}else if(shape.position == 18){
